@@ -1,8 +1,7 @@
 # A library of helper traits for working with PHP 8.1 enums 
 
-[![Build Status](https://github.com/MarkBaker/EnumHelper/workflows/main/badge.svg)](https://github.com/MarkBaker/EnumHelper/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/markbaker/enumhelper)](https://packagist.org/packages/markbaker/enumhelper)
-[![Latest Stable Version](https://img.shields.io/github/v/release/MarkBaker/EnumHelper)](https://packagist.org/packages/markbaker/enumhelper)
+[![Build Status](https://github.com/Packages-2023/EnumHelper/workflows/main/badge.svg)](https://github.com/MarkBaker/EnumHelper/actions)
+[![Latest Stable Version](https://img.shields.io/github/v/release/Packages-2023/EnumHelper)](https://packagist.org/packages/markbaker/enumhelper)
 [![License](https://img.shields.io/github/license/MarkBaker/EnumHelper)](https://packagist.org/packages/markbaker/enumhelper)
 
 This package provides a series of traits that allows you to:
