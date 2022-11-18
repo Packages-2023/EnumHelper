@@ -5,7 +5,7 @@
 ################################################################################
 help-Composer-update: #Help: Команды Composer
 	@$(MAKE) help.Composer
-composer-update-dev: #Composer: 🐘 Composer-update-dev Packages-mezzio-doctrine
+composer-update-dev: #Composer: 🐘 Composer-update-dev 🐞 Dubag
 	@composer update
 composer-update: #Composer: 🐘 Composer-update-auth
 	@composer update --no-dev

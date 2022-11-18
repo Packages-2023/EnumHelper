@@ -11,7 +11,7 @@ trait CasesIndexedByName
     {
         return array_combine(
             array_map(
-                fn(self $case) => $case->name,
+                fn(self $that) => $that->name,
                 self::cases()
             ),
             self::cases()
