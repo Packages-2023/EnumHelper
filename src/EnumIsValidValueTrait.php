@@ -2,7 +2,7 @@
 
 namespace EnumHelper;
 
-trait EnumIsValidValue
+trait EnumIsValidValueTrait
 {
     public static function isValidValue($value): bool
     {
