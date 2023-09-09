@@ -1,5 +1,5 @@
 {
-  "name": "farums/enumhelper",
+  "name": "packages/enumhelper",
   "description": "A small library that provides Helper Traits for PHP 8.1 Enums",
   "type": "enumhelper",
   "license": "MIT",

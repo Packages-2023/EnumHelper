@@ -9,7 +9,7 @@ PATCH      = $(shell echo $(Tag) | sed "s/[0-9]*\.[0-9]*\.\([0-9]*\).*/\1/")
 NEXT_TAG =  $(MAJOR).$(MINOR).$(shell echo $(PATCH) | awk -F - '{ print ($$1+1) }')
 #-----------------------------------------------------------------------------
 define GIT/REPOSITORY/NAME
-	 git config --get remote.origin.url | cut -d'/' -f5 | cut -d'.' -f1
+	git config --get remote.origin.url | sed -e 's/.*\/\([^.]*\)\(\.git\)\{0,1\}/\1/'
 endef
 
 define GIT/TAG/Default
